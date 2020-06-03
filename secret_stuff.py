@@ -1,12 +1,12 @@
 
-# enter in
+# enter in codes 
 
 
-c_key = "u715r5tK6D7gF2GJIzHTnvdcP"
+c_key = ""
 
-Consumer_Secret = "twWuRVgc3MWlcGxaaKtU5VmQEZW6xmkyZmewkRk16KVM7cdqmu"
+Consumer_Secret = ""
 
-access_token = "1267949390968303616-sC9Gj5Z2HbV76KLTLwfuvcS1uNehz8"
+access_token = ""
 
-access_token_secret = "TaLZiqnxO4xi31zOD7fepBiLELOaldmoO31obv9lFiKOS"
+access_token_secret = ""
 
