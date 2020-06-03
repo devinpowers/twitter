@@ -40,7 +40,7 @@ def search_for_hashtags(consumer_key, consumer_secret, access_token, access_toke
                                    lang="en", tweet_mode='extended').items(1000):
             w.writerow([tweet.created_at, tweet.full_text.replace('\n',' ').encode('utf-8'), tweet.user.screen_name.encode('utf-8'), [e['text'] for e in tweet._json['entities']['hashtags']], tweet.user.followers_count])
             
-hashtag_phrase = input('Enter a Hashtag Phrase (Do not put #')
+hashtag_phrase = input('Enter a Hashtag Phrase (Do not put #): ')
 
 if __name__ == '__main__':
     search_for_hashtags(consumer_key, consumer_secret, access_token, access_token_secret, hashtag_phrase)
